@@ -1,9 +1,13 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <title>Is It New Year's?</title>
+    <link href="{% static 'newyear/styles.css' %}" rel="stylesheet">
   </head>
   <body>
+
     <!-- how to write conditons in django using django template language -->
     {% if newyear %}
       <h1>YES</h1>
